@@ -151,12 +151,28 @@
   }
   .card:hover{transform:translateY(-4px);border-color:rgba(56,189,248,0.35);}
 
-  .about-grid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:60px;
-    align-items:start;
-  }
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 3rem; 
+  align-items: start; 
+
+}
+  .about-image {
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.about-image img {
+  width: 100%;
+  height: 500px; /* Increased height for a taller rectangular frame */
+  object-fit: cover;
+  object-position: center top; /* Keeps the focus on the upper body/face */
+  display: block;
+}
   .quote-block{
     border-left:3px solid var(--accent);
     padding-left:26px;
