@@ -156,7 +156,7 @@
   grid-template-columns: 1fr 1fr; 
   gap: 3rem; 
   align-items: start; 
-
+  margin-top: 2rem;
 }
   .about-image {
   width: 100%;
@@ -168,9 +168,9 @@
 
 .about-image img {
   width: 100%;
-  height: 500px; /* Increased height for a taller rectangular frame */
+  height: 500px; 
   object-fit: cover;
-  object-position: center top; /* Keeps the focus on the upper body/face */
+  object-position: center top;
   display: block;
 }
   .quote-block{
@@ -231,7 +231,7 @@
   .mock-accent-bar{width:36px;height:4px;background:var(--accent);border-radius:2px;margin-bottom:16px;}
   .mock-body h4{font-size:19px;line-height:1.4;color:var(--text-head);}
 
-  /* CAROUSEL */
+
   .carousel-track{
     display:flex;gap:18px;overflow-x:auto;padding:6px 32px 20px;
     scroll-snap-type:x mandatory;
@@ -250,7 +250,7 @@
     background:rgba(11,15,25,0.6);padding:6px 12px;border-radius:8px;
   }
 
-  /* COACHING */
+  
   .coaching-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;}
   .badge{
     display:inline-flex;align-items:center;gap:8px;
@@ -272,7 +272,7 @@
   .practice-row h4{font-size:16.5px;margin-bottom:6px;}
   .practice-row p{font-size:14px;}
 
-  /* PUBLICATIONS */
+  
   .pub-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:24px;}
   .pub-card{display:flex;flex-direction:column;gap:14px;}
   .pub-tag{
@@ -292,7 +292,7 @@
   .bullet-list li{font-size:14px;display:flex;gap:10px;align-items:flex-start;}
   .bullet-list li::before{content:"•";color:var(--accent);}
 
-  /* EXPERIENCE timeline */
+  
   .timeline{position:relative;padding-left:38px;}
   .timeline::before{
     content:"";position:absolute;left:5px;top:6px;bottom:6px;width:1px;background:var(--border);
@@ -307,7 +307,7 @@
   .timeline-item h3{font-size:18.5px;margin-bottom:4px;}
   .timeline-item .company{font-size:14px;color:var(--accent);}
 
-  /* CERTIFICATIONS */
+
   .cert-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
   .cert-card .cert-img{
     height:150px;border-radius:12px;border:1px solid var(--border);
@@ -325,7 +325,7 @@
   }
   .cred-id{font-size:12px;color:var(--text-sub);border-top:1px solid var(--border);padding-top:12px;}
 
-  /* CONTACT / FOOTER */
+  
   footer{padding:100px 0 40px;text-align:center;}
   footer .section-title{margin-bottom:14px;}
   footer p.lead{max-width:480px;margin:0 auto 40px;font-size:15.5px;}
@@ -341,7 +341,7 @@
   .btn.inquiry{background:#0284c7;}
   .copyright{font-size:12.5px;color:var(--text-sub);}
 
-  /* RESPONSIVE */
+  
   @media (max-width:768px){
     .wrap{padding:0 20px;}
     section{padding:70px 0;}

@@ -15,7 +15,7 @@
 <nav class="navbar">
   <div class="navbar-inner">
     <div class="brand">
-      <img src="imgs/1000130482.jpg" alt="Profile Picture">
+      <img src="imgs/img1.jpg" alt="Profile Picture">
       <span>Khaled Gamal</span>
     </div>
     <ul class="nav-links" id="navLinks">
@@ -166,7 +166,7 @@
       </div>
       <div class="card pub-card">
         <div class="imgslot">
-          <img src="/imgs/Screenshot 2026-06-20 211656.png" alt="Masterclass Cover">
+          <img src="/imgs/img3.png" alt="Masterclass Cover">
         </div>
         <h3>National Strategy,Local Execution</h3>
         <p>Translating enterprise level strategy into decisive on the ground execution.</p>
@@ -188,12 +188,10 @@
     <span class="eyebrow">Credentials</span>
     <h2 class="section-title">Verified Qualifications</h2>
     <div class="cert-grid">
-
-      <!-- CERTIFICATE 1 -->
       <div class="card cert-card">
         <div class="cert-img-wrapper">
           <div class="mock-dots"><span></span><span></span></div>
-          <img src="/imgs/Screenshot 2026-09-04 235519.png" alt="Microsoft Certified: Power BI Data Analyst Associate" class="cert-media">
+          <img src="/imgs/Cert1.png" alt="Microsoft Certified: Power BI Data Analyst Associate" class="cert-media">
         </div>
         <h3>Microsoft Certified: Power BI Data Analyst Associate</h3>
         <p>Demonstrates expertise in data modeling, visualization, and actionable business intelligence reporting.</p>
@@ -201,7 +199,7 @@
       <div class="card cert-card">
         <div class="cert-img-wrapper">
           <div class="mock-dots"><span></span><span></span></div>
-          <img src="/imgs/Screenshot 2026-06-20 211227.png" alt="Building a Successful Business Analysis Career" class="cert-media">
+          <img src="/imgs/Cert2.png" alt="Building a Successful Business Analysis Career" class="cert-media">
         </div>
         <h3>Building a Successful Business Analysis Career</h3>
         <p>Formal qualification validating core business analysis competencies and strategy execution.</p>
@@ -209,7 +207,7 @@
       <div class="card cert-card">
         <div class="cert-img-wrapper">
           <div class="mock-dots"><span></span><span></span></div>
-          <img src="/imgs/Screenshot 2026-09-05 000003.png" alt="Project Management: Healthcare Projects" class="cert-media">
+          <img src="/imgs/Cert3.png" alt="Project Management: Healthcare Projects" class="cert-media">
         </div>
         <h3>Project Management: Healthcare Projects</h3>
         <p>Covers specialized project management methodologies and execution within complex healthcare environments.</p>
@@ -232,13 +230,10 @@
 </footer>
 
 <script>
-  // Mobile nav toggle
   const navToggle = document.getElementById('navToggle');
   const navLinks = document.getElementById('navLinks');
   navToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
   navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
-
-  // Philosophy tabs
   const tabData = [
     {
       title: "The Comeback is Greater than the Setback",
@@ -264,7 +259,6 @@
     });
   });
 
-  // Keyboard shortcuts Shift+1/2/3
   document.addEventListener('keydown', (e) => {
     if (e.shiftKey && ['1','2','3'].includes(e.key)) {
       const idx = parseInt(e.key) - 1;
